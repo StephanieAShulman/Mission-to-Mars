@@ -12,12 +12,21 @@ A web browser was automated to visit four different websites and extract pertien
 ## Project
 For this project an app was built to scrape websites and a HTML page created to display the findings. Steps included:
 * Python script was created to automate web browsing with Splinter.
+
 * Data were extracted with a BeautifulSoup html parser.
+
 * HTML components were identified with Chrome Developer Tools.
+
 * Structured and unstructred data were stored using MongoDB (a NoSQL database) via GitBash access.
+
 * A web application was built to display the data using Flask.
+
 * A button feature was included to execute code scraping. Following data retrieval, updated information is displayed.
-* Bootstrap components were applied to modifying features, such a increasing the size of button, making headers bold and changing the colors of text.
+
+* Bootstrap components were applied to modifying features, such as:
+  1. Increasing the size of button: *btn-block*.
+  2. Making headers bold: <strong>Mission to Mars</strong>.
+  3. Changing the colors of text: style=color:darkblue.
 
 ## Final Result
 The finished HTML site was accessed through the http://127.0.0.1:5000/ link with the most recent iteration appearing below:
